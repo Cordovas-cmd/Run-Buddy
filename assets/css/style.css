@@ -1,0 +1,52 @@
+/* This will remove and default padding and margint hat the browser will apply. */
+*{
+margin: 0;
+padding: 0;
+}
+
+body {
+
+    /* Sets the font style and color of the page */
+    color: #39a6b2;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Apply styles to the header */
+header {
+    /* Applies 20 px to the top and bottom, then 35px to left and right */
+    padding: 20px 30px;
+    background-color: #39a6b2;
+}
+
+/* Setting some styles for more specific elements of header. */
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+    /* Makes the default h1 black display inline so that the <nav> items acan be displayed in the same line. */
+    display: inline;
+}
+header a {
+    /* Set text decoration none to over ride pre determined browser styles for <a> tags. */
+    text-decoration: none;
+    color: #fce138;
+}
+
+header nav {
+/* FLoats the nav elements to the right .. We need to turn this into an <inline> element*/
+    float: right;
+    margin: 7px 0;
+}
+
+header nav ul li {
+    /* Allows each <li> element to no longer be in dotted list format but instead, display side by side */
+    /* We need to make display inline because each <li> is considered a block element.  */
+    display: inline;
+}
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
