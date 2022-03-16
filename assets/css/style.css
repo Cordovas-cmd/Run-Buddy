@@ -2,6 +2,8 @@
 *{
 margin: 0;
 padding: 0;
+/* Border box won't allow any elements to run off of the screen. */
+box-sizing: border-box;
 }
 
 body {
@@ -11,7 +13,7 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
-/* Apply styles to the header */
+/* Apply styles to the header -------------------------------------------------------------------*/
 header {
     /* Applies 20 px to the top and bottom, then 35px to left and right */
     padding: 20px 30px;
@@ -49,4 +51,26 @@ header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
+}
+
+/* Styling the footer------------------------------------------------------------------------------- */
+footer {
+    background: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+}
+footer h2 {
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
+footer div {
+    float: right;
+    /* line-height means we want the spacing to be 1.5x the font size. */
+    line-height: 1.5;
+    text-align: right;
+}
+footer a {
+    color:#024e76
 }
