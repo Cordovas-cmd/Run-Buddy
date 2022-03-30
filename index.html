@@ -40,7 +40,7 @@
     </header>
 
 
-    <!-- Hero/Jumbotron -->
+    <!-- Hero/Jumbotron Section-->
     <section>
         <div>
             <h3>Get Started Today</h3>
@@ -49,15 +49,49 @@
 
             <!-- Add form element -->
             <form>
-                <!-- <label> programmatically links to the associated <input>
+                <!-- <label> programmatically links to the associated <input> and it's ID
                 <label> will also allow screenreaders to read out loud to user with visual impairments when they focus on the input field -->
                 <label for="name">Enter full name:</label>
                 <input type="text" placeholder="Your Name" name="name" id="name" />
+
+                <!-- Email input field -->
+                <label for="email">Enter email address:</label>
+                <input type="text" placeholder="Email Address" name="email" id="email"/>
+
+                <!-- Phone number input field -->
+                <label for="phone"> Enter a telephone number:</label>
+                <input type="text" placeholder="Phone Number" name="phone" id="phone" />
+
+                <p> Have you worked out with a trainer before? 
+
+                    <!-- Setting up Radio buttons (choices) -->
+                    <!-- IMPORTANT: Radio buttons MUST have the same name attribute in order to be associated with the same "Group" -->
+                    <input type="radio" name="trainer-confirm" id="trainer-yes" />
+                    <!-- Here we use label to link the Yes to its respective radio input -->
+                    <label for="trainer-yes">Yes</label>
+
+                    <input type="radio" name="trainer-confirm" id="trainer-no" />
+                    <!-- Here we use label to link the No to its respective radio input -->
+                    <label for="trainer-no">No</label>
+
+                </p>    
+
+                <!-- Set up an Age confirmation Checkbox -->
+                <p>
+
+                    <label for="checkbox">I acknowledge that I am at least 18 years of age</label>
+                    <input type="checkbox" name="age-confirm" id="checkbox" />
+
+                </p>
+
+                <button type="submit">
+                    Get running!
+                </button>
+
             </form>
-
-
         </div>
     </section>
+    <!-- End hero -->
 
     <!-- "What we do" section -->
     <section>
