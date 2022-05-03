@@ -134,19 +134,11 @@ margin: 5px 0 15px 0;
     font-size: 16px;
 }
 
+
+
+/* WHAT WE DO SECTION STYLING------------------------------------------------------------------------------------- */
 .intro {
     text-align: center;
-}
-
-.intro h2 {
-    /* Inline block will allow the border to not extend the full length but won't change the padding of everything */
-    display: inline-block;
-    font-size: 55px;
-    color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    border-bottom: 3px solid;
-    border-color: #fce138;
 }
 
 .intro p {
@@ -156,4 +148,31 @@ margin: 5px 0 15px 0;
     font-size: 20px;
     /* how to center a block element with a width of less than 100% */
     margin: 0 auto;
+}
+
+
+
+/* WHAT YOU DO SECTION STYLING----------------------------------------------------------------------------------------------- */
+.steps {
+    text-align: center;
+    background: #fce138;
+}
+
+
+.section-title {
+    font-size: 55px;
+    color:#024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    /* Inline block will allow the border to not extend the full length but won't change the padding of everything */
+    display: inline-block;
+    border-bottom: 3px solid;
+}
+
+.primary-border {
+    border-color: #fce138;
+}
+
+.secondary-border {
+    border-color: #39a6b2;
 }
