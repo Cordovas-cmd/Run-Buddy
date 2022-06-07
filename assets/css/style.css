@@ -150,6 +150,17 @@ margin: 5px 0 15px 0;
     margin: 0 auto;
 }
 
+.intro h2 {
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    /* border-bottom: 3px solid;
+    border-color: #fce138; */
+
+    /* SHorthand property for the above code. */
+    border-bottom: 3px solid #fce138;
+}
 
 
 /* WHAT YOU DO SECTION STYLING----------------------------------------------------------------------------------------------- */
@@ -167,6 +178,15 @@ margin: 5px 0 15px 0;
     /* Inline block will allow the border to not extend the full length but won't change the padding of everything */
     display: inline-block;
     border-bottom: 3px solid;
+}
+
+.steps h2 {
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid;
+    border-color: #39a6b2;
 }
 
 .primary-border {
