@@ -1,2 +1,14 @@
-# Run-Buddy
-Landing Page for a hypothetical company. Lead generation tool for RunBuddy.co.
+# Run Buddy
+
+## Purpose
+A website that offers fitness training services.
+
+## Built With
+* HTML
+* CSS
+
+## Website
+https://lernantino.github.io/run-buddy/
+
+## Contribution
+Made with ❤️ by [your name]
