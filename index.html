@@ -38,6 +38,7 @@
             </ul>
         </nav>
     </header>
+    <!-- End Navigation -->
 
 
     <!-- Hero/Jumbotron Section-->
@@ -52,7 +53,6 @@
           
         <div class="hero-form">
             <h3>Get Started Today</h3>
-
             <p>Fill out this form and one of our trainers will schedule a consult</p>
 
             <!-- Add form element -->
@@ -75,25 +75,20 @@
                 <input type="tel" placeholder="Phone Number" name="phone" id="phone" class="form-input"/>
 
                 <p> Have you worked out with a trainer before? 
-
                     <!-- Setting up Radio buttons (choices) -->
                     <!-- IMPORTANT: Radio buttons MUST have the same name attribute in order to be associated with the same "Group" -->
                     <input type="radio" name="trainer-confirm" id="trainer-yes" />
                     <!-- Here we use label to link the Yes to its respective radio input -->
                     <label for="trainer-yes">Yes</label>
-
                     <input type="radio" name="trainer-confirm" id="trainer-no" />
                     <!-- Here we use label to link the No to its respective radio input -->
                     <label for="trainer-no">No</label>
-
                 </p>    
 
                 <!-- Set up an Age confirmation Checkbox -->
                 <p>
-
                     <label for="checkbox">I acknowledge that I am at least 18 years of age</label>
                     <input type="checkbox" name="age-confirm" id="checkbox" />
-
                 </p>
 
                 <button type="submit">
@@ -123,7 +118,6 @@
         <div>
             <!-- Insert img element -->
             <img src="./assets/images/step-1.svg" alt=""/>
-
             <!-- Add span element to highlight sections so that we can set css differently. -->
             <h3>Step 1: <span>Fill Out the Form Above.</span></h3>
             <p>You're already here, so why not?</p>
@@ -156,36 +150,24 @@
 
         <!-- Article is an html5 semantic tag  stating that all enclosed content belongs to this article and is not related to anything outside of itself-->
         <article class="trainer">
-
             <img src="./assets/images/trainer-1.jpg" alt="Arron Stephens in his workout clothes, ready to pump iron" />
-
             <div class="trainer-bio text-left">
-
                 <h3>Aaron Stephens</h3>
-
                 <h4>Speed / Strength</h4>
-
                 <p>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem obcaecati minus dolore aperiam nostrum voluptates? Ullam commodi libero quisquam vel, quod cupiditate iure ipsam cumque modi tempore suscipit amet doloremque!
                 </p>
-
             </div>
-
         </article>
 
         <!-- Second Trainer Bio. -->
         <article class="trainer">
-
             <div class="trainer-bio text-right">
-                
                 <h3>Joanna Gill</h3>
-                
                 <h4>Endurance</h4>
-                
                 <p>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem obcaecati minus dolore aperiam nostrum voluptates? Ullam commodi libero quisquam vel, quod cupiditate iure ipsam cumque modi tempore suscipit amet doloremque!
                 </p>
-                
             </div>
             
             <img src="./assets/images/trainer-2.jpg" alt="Joanna Gill cooling off after a workout" />
@@ -194,24 +176,18 @@
 
         <!-- Third Trainer Bio. -->
         <article class="trainer">
-
             <img src="./assets/images/trainer-3.jpg" alt="Harry Smith wearing a headband and lifting his comically small pink weights." />
-            
             <div class="trainer-bio text-left">
-                
                 <h3>Harry "The Headband" Smith</h3>
-                
                 <h4>Strength</h4>
-                
                 <p>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem obcaecati minus dolore aperiam nostrum voluptates? Ullam commodi libero quisquam vel, quod cupiditate iure ipsam cumque modi tempore suscipit amet doloremque!
                 </p>
-                
             </div>
-            
         </article>
-    </section>
 
+    </section>
+<!-- "Meet the trainers" end -->
 
     <!-- "Reach Out" section -->
     <section id="reach-out" class="contact">
@@ -226,28 +202,35 @@
              allowfullscreen="" 
              loading="lazy" 
              referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+             <!-- Start Contact form. -->
              <div class="contact-form">
+
                 <h3>Contact Us</h3>
+
                 <form>
                    <label for="contact-name">Your Name</label>
+
                    <input type="text" id="contact-name" placeholder="Your Name" />
               
                    <label for="contact-message">Message</label>
+
                    <textarea id="contact-message" placeholder="Message"></textarea>
               
                    <button type="submit">Submit</button>
                   </form>
+
               </div>
+
             <div>
+
                 <h3>Run Buddy</h3>
                 <p>
-                    
                     Any questions or conerns before signing up?
                     
                     <br />
                     
                     Let us know and we'll be happy to talk to you!
-
                 </p>
 
                 <!-- Use the address symantic tag to let the browser know this is an address -->
@@ -258,24 +241,24 @@
                     P: 555.RUN.BUDZ (555-786-2839) <br />
                     <!-- mailto Intructs browser to open default mail client application upon clicking the link and automatically adds the email address provided in the href. -->
                     E: <a href="mailto:info@runbuddy.io">info@runbuddy.io</a>
-
                 </address>
             </div>
 
         </div>
+
     </section>
 
+    <!-- Footer start -->
     <footer> 
         <h2> ❤️ Made with love by Run Buddy.</h2>
-
         <div>
         <!-- Link to Company Privacy policy -->
             <a href="./privacy-policy.html">Read Our Privacy Policy</a><br/>
         <!-- Copyright symbol -->
             &copy; 2019 Run Buddy, Inc.
         </div>
-
     </footer>
+<!-- Footer end -->
 
 </body>
 </html>
