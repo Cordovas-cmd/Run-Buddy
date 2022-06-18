@@ -44,16 +44,27 @@ header nav {
     margin: 7px 0;
 }
 
-header nav ul li {
+/* header nav ul li { */
     /* Allows each <li> element to no longer be in dotted list format but instead, display side by side */
     /* We need to make display inline because each <li> is considered a block element.  */
-    display: inline;
+    /* display: inline; */
+/* } */
+
+header nav ul {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+/* Takes off any styling the list items would have */
+list-style: none;
 }
 
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
-    font-size: 22px;
+    /* font-size: 22px; */
+    /* using vw which stands for viewport width makes it more dynamic allowing it to adjust based on current screen size. */
+    font-size: 1.55vw;
 }
 
 /* Styling the footer------------------------------------------------------------------------------- */
