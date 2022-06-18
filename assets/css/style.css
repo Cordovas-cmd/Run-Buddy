@@ -173,9 +173,9 @@ margin: 5px 0 15px 0;
 
 
 /* WHAT WE DO SECTION STYLING------------------------------------------------------------------------------------- */
-.intro {
+/* .intro {
     text-align: center;
-}
+} */
 
 .intro p {
     line-height: 1.7;
@@ -184,6 +184,7 @@ margin: 5px 0 15px 0;
     font-size: 20px;
     /* how to center a block element with a width of less than 100% */
     margin: 0 auto;
+    text-align: center;
 }
 
 .intro h2 {
@@ -201,7 +202,7 @@ margin: 5px 0 15px 0;
 
 /* WHAT YOU DO SECTION STYLING----------------------------------------------------------------------------------------------- */
 .steps {
-    text-align: center;
+    /* text-align: center; */
     background: #fce138;
 }
 
@@ -209,11 +210,15 @@ margin: 5px 0 15px 0;
 .section-title {
     font-size: 55px;
     color:#024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
+    padding-bottom: 20px;
+    /* margin-bottom: 35px; */
+    text-align: center;
+    margin: 0 auto 35px auto;
+    /* padding: 0 100px 20px 100px; */
     /* Inline block will allow the border to not extend the full length but won't change the padding of everything */
-    display: inline-block;
+    /* display: inline-block; */
     border-bottom: 3px solid;
+    width: 50%;
 }
 
 .steps h2 {
@@ -260,7 +265,7 @@ margin: 5px 0 15px 0;
 
 /* Trainers section styling ---------------------------------------------------------------------------------------------------------- */
 .trainers {
-    text-align: center;
+    /* text-align: center; */
 }
 
 .trainer {
@@ -301,19 +306,11 @@ margin: 5px 0 15px 0;
     line-height: 1.3;
 }
 
-/* Potential Global Classes */
-.text-left {
-    text-align: left;
-}
-
-.text-right {
-    text-align: right;
-}
 
 
 /* REAH OUT STYLES START------------------------------------------------------------------------------------------------- */
 .contact {
-   text-align: center;
+    /* text-align: center; */
     background: #024e76;
     
 }
@@ -369,4 +366,18 @@ footer div {
 }
 footer a {
     color:#024e76
+}
+
+
+/* Potential Global Classes/ Utility classes ---------------------------------------- */
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.flex-row {
+    display: flex;
 }
