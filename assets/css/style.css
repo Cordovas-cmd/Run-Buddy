@@ -18,6 +18,9 @@ header {
     /* Applies 20 px to the top and bottom, then 35px to left and right */
     padding: 20px 30px;
     background-color: #39a6b2;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 /* Setting some styles for more specific elements of header. */
@@ -27,7 +30,7 @@ header h1 {
     color: #fce138;
     margin: 0;
     /* Makes the default h1 black display inline so that the <nav> items acan be displayed in the same line. */
-    display: inline;
+    /* display: inline; */
 }
 header a {
     /* Set text decoration none to over ride pre determined browser styles for <a> tags. */
@@ -37,7 +40,7 @@ header a {
 
 header nav {
 /* FLoats the nav elements to the right .. We need to turn this into an <inline> element*/
-    float: right;
+    /* float: right; */
     margin: 7px 0;
 }
 
