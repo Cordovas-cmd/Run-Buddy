@@ -100,23 +100,28 @@ section {
 /* Homepage Hero */
 .hero {
     background-image: url("../images/hero-bg.jpg");
-    height: 600px;
+    /* height: 600px; */
     background-size: cover;
     background-position: center;
     /* Have to make this position relative so that .hero-form position of 
     "absolute" will be based off .hero instead of the body itself */
-    position: relative;
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .hero-form {
     background-color: #fce138;
     padding: 20px;
-    width: 500px;
+    /* width: 500px; */
+    width: 40%;
+    margin: 3.5%;
     color: #024e76;
     border: solid 3px #024e76;
-    position: absolute;
-    bottom: 120px;
-    right: 140px;
+    /* position: absolute; */
+    /* bottom: 120px; */
+    /* right: 140px; */
 }
 
 .hero-form p {
@@ -149,6 +154,20 @@ margin: 5px 0 15px 0;
     border: none;
     padding: 10px 20px;
     font-size: 16px;
+}
+.hero-cta {
+    width: 35%;
+    text-align: right;
+    margin: 3.5%;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.3; 
+}
+
+.hero-cta h2 {
+    font-style: italic;
+    font-size: 55px;
+    color: #fce138;
 }
 
 
