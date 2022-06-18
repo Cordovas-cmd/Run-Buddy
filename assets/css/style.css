@@ -18,6 +18,9 @@ header {
     /* Applies 20 px to the top and bottom, then 35px to left and right */
     padding: 20px 30px;
     background-color: #39a6b2;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 /* Setting some styles for more specific elements of header. */
@@ -27,7 +30,7 @@ header h1 {
     color: #fce138;
     margin: 0;
     /* Makes the default h1 black display inline so that the <nav> items acan be displayed in the same line. */
-    display: inline;
+    /* display: inline; */
 }
 header a {
     /* Set text decoration none to over ride pre determined browser styles for <a> tags. */
@@ -37,24 +40,35 @@ header a {
 
 header nav {
 /* FLoats the nav elements to the right .. We need to turn this into an <inline> element*/
-    float: right;
+    /* float: right; */
     margin: 7px 0;
 }
 
-header nav ul li {
+/* header nav ul li { */
     /* Allows each <li> element to no longer be in dotted list format but instead, display side by side */
     /* We need to make display inline because each <li> is considered a block element.  */
-    display: inline;
+    /* display: inline; */
+/* } */
+
+header nav ul {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+/* Takes off any styling the list items would have */
+list-style: none;
 }
 
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
-    font-size: 22px;
+    /* font-size: 22px; */
+    /* using vw which stands for viewport width makes it more dynamic allowing it to adjust based on current screen size. */
+    font-size: 1.55vw;
 }
 
 /* Styling the footer------------------------------------------------------------------------------- */
-footer {
+/* footer {
     background: #fce138;
     width: 100%;
     padding: 40px 35px;
@@ -67,13 +81,15 @@ footer h2 {
 }
 footer div {
     float: right;
-    /* line-height means we want the spacing to be 1.5x the font size. */
+
+    line-height means we want the spacing to be 1.5x the font size.
+
     line-height: 1.5;
     text-align: right;
 }
 footer a {
     color:#024e76
-}
+} */
 
 section {
     padding: 60px;
@@ -308,4 +324,30 @@ margin: 5px 0 15px 0;
     line-height: 1.5;
     font-size: 20px;
     font-style: normal;
+}
+
+
+/* Styling the footer --------------------------------- */
+footer {
+    background: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+footer h2 {
+    /* display: inline; */
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
+footer div {
+    /* float: right; */
+    /* line-height means we want the spacing to be 1.5x the font size. */
+    line-height: 1.5;
+    text-align: right;
+}
+footer a {
+    color:#024e76
 }
