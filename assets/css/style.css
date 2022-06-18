@@ -68,7 +68,7 @@ header nav ul li a {
 }
 
 /* Styling the footer------------------------------------------------------------------------------- */
-footer {
+/* footer {
     background: #fce138;
     width: 100%;
     padding: 40px 35px;
@@ -81,13 +81,15 @@ footer h2 {
 }
 footer div {
     float: right;
-    /* line-height means we want the spacing to be 1.5x the font size. */
+
+    line-height means we want the spacing to be 1.5x the font size.
+
     line-height: 1.5;
     text-align: right;
 }
 footer a {
     color:#024e76
-}
+} */
 
 section {
     padding: 60px;
@@ -322,4 +324,30 @@ margin: 5px 0 15px 0;
     line-height: 1.5;
     font-size: 20px;
     font-style: normal;
+}
+
+
+/* Styling the footer --------------------------------- */
+footer {
+    background: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+footer h2 {
+    /* display: inline; */
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
+footer div {
+    /* float: right; */
+    /* line-height means we want the spacing to be 1.5x the font size. */
+    line-height: 1.5;
+    text-align: right;
+}
+footer a {
+    color:#024e76
 }
