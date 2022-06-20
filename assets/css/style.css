@@ -67,29 +67,7 @@ header nav ul li a {
     font-size: 1.55vw;
 }
 
-/* Styling the footer------------------------------------------------------------------------------- */
-/* footer {
-    background: #fce138;
-    width: 100%;
-    padding: 40px 35px;
-}
-footer h2 {
-    display: inline;
-    color: #024e76;
-    font-size: 30px;
-    margin: 0;
-}
-footer div {
-    float: right;
 
-    line-height means we want the spacing to be 1.5x the font size.
-
-    line-height: 1.5;
-    text-align: right;
-}
-footer a {
-    color:#024e76
-} */
 
 section {
     padding: 60px;
@@ -100,23 +78,28 @@ section {
 /* Homepage Hero */
 .hero {
     background-image: url("../images/hero-bg.jpg");
-    height: 600px;
+    /* height: 600px; */
     background-size: cover;
     background-position: center;
     /* Have to make this position relative so that .hero-form position of 
     "absolute" will be based off .hero instead of the body itself */
-    position: relative;
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .hero-form {
     background-color: #fce138;
     padding: 20px;
-    width: 500px;
+    /* width: 500px; */
+    width: 40%;
+    margin: 3.5%;
     color: #024e76;
     border: solid 3px #024e76;
-    position: absolute;
-    bottom: 120px;
-    right: 140px;
+    /* position: absolute; */
+    /* bottom: 120px; */
+    /* right: 140px; */
 }
 
 .hero-form p {
@@ -150,13 +133,27 @@ margin: 5px 0 15px 0;
     padding: 10px 20px;
     font-size: 16px;
 }
+.hero-cta {
+    width: 35%;
+    text-align: right;
+    margin: 3.5%;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.3; 
+}
+
+.hero-cta h2 {
+    font-style: italic;
+    font-size: 55px;
+    color: #fce138;
+}
 
 
 
 /* WHAT WE DO SECTION STYLING------------------------------------------------------------------------------------- */
-.intro {
+/* .intro {
     text-align: center;
-}
+} */
 
 .intro p {
     line-height: 1.7;
@@ -165,6 +162,7 @@ margin: 5px 0 15px 0;
     font-size: 20px;
     /* how to center a block element with a width of less than 100% */
     margin: 0 auto;
+    text-align: center;
 }
 
 .intro h2 {
@@ -182,20 +180,26 @@ margin: 5px 0 15px 0;
 
 /* WHAT YOU DO SECTION STYLING----------------------------------------------------------------------------------------------- */
 .steps {
-    text-align: center;
+    /* text-align: center; */
     background: #fce138;
 }
+
 
 
 .section-title {
     font-size: 55px;
     color:#024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
+    padding-bottom: 20px;
+    /* margin-bottom: 35px; */
+    text-align: center;
+    margin: 0 auto 35px auto;
+    /* padding: 0 100px 20px 100px; */
     /* Inline block will allow the border to not extend the full length but won't change the padding of everything */
-    display: inline-block;
+    /* display: inline-block; */
     border-bottom: 3px solid;
+    width: 50%;
 }
+
 
 .steps h2 {
     font-size: 55px;
@@ -214,34 +218,66 @@ margin: 5px 0 15px 0;
     border-color: #39a6b2;
 }
 
-.steps div {
-    margin-bottom: 80px;
-}
-
 /* Resize the svg images */
-.steps img {
+/* .steps img {
     width: 15%;
     margin: 10px 0;
+} */
+
+.step {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    border-bottom: 1px solid #39a6b2;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.steps h3 {
+.step h3 {
     color: #024e76;
     font-size: 46px;
     margin-top: 10px;
+    flex: 1 30%;
 }
 
-.steps p {
+.step-info {
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/* Stes a 1 to 12 ratio between step-img and step-text */
+.step-img {
+    flex: 1 12%;
+    margin-right: 20px;
+}
+
+.step-img img {
+    max-width: 100%;
+}
+
+/* Mean thats step-text will used 12 times the amount of space the image will use */
+.step-text {
+    flex: 12;
+}
+.step-text p {
     color: #39a6b2;
-    font-size: 23px;
+    font-size: 18px;
 }
 
-.steps span {
-    font-size: 38px;
+
+.step-text h4 {
+    font-size: 26px;
+    line-height: 1.5;
+    color: #024e76
 }
 
 /* Trainers section styling ---------------------------------------------------------------------------------------------------------- */
 .trainers {
-    text-align: center;
+    /* text-align: center; */
 }
 
 .trainer {
@@ -282,19 +318,11 @@ margin: 5px 0 15px 0;
     line-height: 1.3;
 }
 
-/* Potential Global Classes */
-.text-left {
-    text-align: left;
-}
-
-.text-right {
-    text-align: right;
-}
 
 
 /* REAH OUT STYLES START------------------------------------------------------------------------------------------------- */
 .contact {
-   text-align: center;
+    /* text-align: center; */
     background: #024e76;
     
 }
@@ -350,4 +378,18 @@ footer div {
 }
 footer a {
     color:#024e76
+}
+
+
+/* Potential Global Classes/ Utility classes ---------------------------------------- */
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.flex-row {
+    display: flex;
 }
