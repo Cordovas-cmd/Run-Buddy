@@ -329,21 +329,24 @@ justify-content: space-around;
     background: #024e76;
     
 }
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
 
+.contact-info > * {
+    flex: 1;
+    margin: 15px;
+}
 .contact h2, .contact-info h3, .contact-info a {
     color:#fce138;
 }
 
 .contact-info iframe {
-    width: 400px;
     height: 400px;
 }
 .contact-info div {
-    width: 410px;
-    display: inline-block;
-    vertical-align: top;
-    text-align: left;
-    margin: 30px 0 0 60px;
     color: white;
 }
 .contact-info h3 {
