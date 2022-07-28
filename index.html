@@ -199,50 +199,54 @@
 
 
     <!-- "Meet The Trainers" section -->
-    <section id="your-trainers" class="trainers">
+    <section id="your-trainers" >
 
     <div class="flex-row">
         <h2 class="section-title primary-border"> Meet The Trainers</h2>
-    </div>    
+    </div>  
+      
+        <div class="trainers">
 
-        <!-- Article is an html5 semantic tag  stating that all enclosed content belongs to this article and is not related to anything outside of itself-->
-        <article class="trainer">
-            <img src="./assets/images/trainer-1.jpg" alt="Arron Stephens in his workout clothes, ready to pump iron" />
-            <div class="trainer-bio text-left">
-                <h3>Aaron Stephens</h3>
-                <h4>Speed / Strength</h4>
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem obcaecati minus dolore aperiam nostrum voluptates? Ullam commodi libero quisquam vel, quod cupiditate iure ipsam cumque modi tempore suscipit amet doloremque!
-                </p>
-            </div>
-        </article>
-
-        <!-- Second Trainer Bio. -->
-        <article class="trainer">
-            <div class="trainer-bio text-right">
-                <h3>Joanna Gill</h3>
-                <h4>Endurance</h4>
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem obcaecati minus dolore aperiam nostrum voluptates? Ullam commodi libero quisquam vel, quod cupiditate iure ipsam cumque modi tempore suscipit amet doloremque!
-                </p>
-            </div>
+            <!-- Article is an html5 semantic tag  stating that all enclosed content belongs to this article and is not related to anything outside of itself-->
+            <article class="trainer">
+                <img src="./assets/images/trainer-1.jpg" alt="Arron Stephens in his workout clothes, ready to pump iron" />
+                <div class="trainer-bio">
+                    <h3 class="trainer-name">Aaron Stephens</h3>
+                    <h4 class="trainer-role">Speed / Strength</h4>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem obcaecati minus dolore aperiam nostrum voluptates? Ullam commodi libero quisquam vel, quod cupiditate iure ipsam cumque modi tempore suscipit amet doloremque!
+                    </p>
+                </div>
+            </article>
             
-            <img src="./assets/images/trainer-2.jpg" alt="Joanna Gill cooling off after a workout" />
+            <!-- Second Trainer Bio. -->
+            <article class="trainer">
+                <img src="./assets/images/trainer-2.jpg" alt="Joanna Gill cooling off after a workout" />
+                <div class="trainer-bio">
+                    <h3 class="trainer-name">Joanna Gill</h3>
+                    <h4 class="trainer-role">Endurance</h4>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem obcaecati minus dolore aperiam nostrum voluptates? Ullam commodi libero quisquam vel, quod cupiditate iure ipsam cumque modi tempore suscipit amet doloremque!
+                    </p>
+                </div>
+                
+                
+            </article>
+            
+            <!-- Third Trainer Bio. -->
+            <article class="trainer">
+                <img src="./assets/images/trainer-3.jpg" alt="Harry Smith wearing a headband and lifting his comically small pink weights." />
+                <div class="trainer-bio">
+                    <h3 class="trainer-name">Harry "The Headband" Smith</h3>
+                    <h4 class="trainer-role">Strength</h4>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem obcaecati minus dolore aperiam nostrum voluptates? Ullam commodi libero quisquam vel, quod cupiditate iure ipsam cumque modi tempore suscipit amet doloremque!
+                    </p>
+                </div>
+            </article>
 
-        </article>
-
-        <!-- Third Trainer Bio. -->
-        <article class="trainer">
-            <img src="./assets/images/trainer-3.jpg" alt="Harry Smith wearing a headband and lifting his comically small pink weights." />
-            <div class="trainer-bio text-left">
-                <h3>Harry "The Headband" Smith</h3>
-                <h4>Strength</h4>
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem obcaecati minus dolore aperiam nostrum voluptates? Ullam commodi libero quisquam vel, quod cupiditate iure ipsam cumque modi tempore suscipit amet doloremque!
-                </p>
-            </div>
-        </article>
-
+        </div>
+            
     </section>
 <!-- "Meet the trainers" end -->
 
@@ -254,32 +258,6 @@
         </div>
 
         <div class="contact-info">
-
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.1200334139285!2d-118.22487576446215!3d34.06643711855777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c66ed469e5c3%3A0xcaec9658576166b3!2sN%20Main%20St%2C%20Los%20Angeles%2C%20CA!5e0!3m2!1sen!2sus!4v1654580890480!5m2!1sen!2sus" width="400" 
-            height="400" 
-            style="border:0;"
-             allowfullscreen="" 
-             loading="lazy" 
-             referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-             <!-- Start Contact form. -->
-             <div class="contact-form">
-
-                <h3>Contact Us</h3>
-
-                <form>
-                   <label for="contact-name">Your Name</label>
-
-                   <input type="text" id="contact-name" placeholder="Your Name" />
-              
-                   <label for="contact-message">Message</label>
-
-                   <textarea id="contact-message" placeholder="Message"></textarea>
-              
-                   <button type="submit">Submit</button>
-                  </form>
-
-              </div>
 
             <div>
 
@@ -303,6 +281,33 @@
                 </address>
             </div>
 
+
+              <!-- Start Contact form. -->
+              <div class="contact-form">
+
+                <h3>Contact Us</h3>
+
+                <form>
+                   <label for="contact-name">Your Name</label>
+
+                   <input type="text" id="contact-name" placeholder="Your Name" />
+              
+                   <label for="contact-message">Message</label>
+
+                   <textarea id="contact-message" placeholder="Message"></textarea>
+              
+                   <button type="submit">Submit</button>
+                </form>
+
+              </div>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.1200334139285!2d-118.22487576446215!3d34.06643711855777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c66ed469e5c3%3A0xcaec9658576166b3!2sN%20Main%20St%2C%20Los%20Angeles%2C%20CA!5e0!3m2!1sen!2sus!4v1654580890480!5m2!1sen!2sus" width="400" 
+            height="400" 
+            style="border:0;"
+             allowfullscreen="" 
+             loading="lazy" 
+             referrerpolicy="no-referrer-when-downgrade"></iframe>
+
         </div>
 
     </section>
@@ -321,3 +326,5 @@
 
 </body>
 </html>
+
+<!--Need to finish the styles up and then go on to contact -->
