@@ -192,7 +192,6 @@ margin: 5px 0 15px 0;
     font-size: 48px;
     color:#024e76;
     padding-bottom: 20px;
-    /* margin-bottom: 35px; */
     text-align: center;
     margin: 0 auto 35px auto;
     /* padding: 0 100px 20px 100px; */
@@ -279,7 +278,6 @@ margin: 5px 0 15px 0;
 
 /* Trainers section styling ---------------------------------------------------------------------------------------------------------- */
 .trainers {
-    /* text-align: center; */
     width: 100%;
     margin: 0 auto;
 display: flex;
@@ -399,13 +397,11 @@ footer {
     flex-wrap: wrap;
 }
 footer h2 {
-    /* display: inline; */
     color: #024e76;
     font-size: 30px;
     margin: 0;
 }
 footer div {
-    /* float: right; */
     /* line-height means we want the spacing to be 1.5x the font size. */
     line-height: 1.5;
     text-align: right;
