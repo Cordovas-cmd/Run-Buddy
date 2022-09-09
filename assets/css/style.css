@@ -29,6 +29,7 @@ header h1 {
     font-size: 36px;
     color: #fce138;
     margin: 0;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     /* Makes the default h1 black display inline so that the <nav> items acan be displayed in the same line. */
     /* display: inline; */
 }
@@ -66,6 +67,7 @@ header nav ul li a {
     /* font-size: 22px; */
     /* using vw which stands for viewport width makes it more dynamic allowing it to adjust based on current screen size. */
     font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -92,13 +94,15 @@ section {
 }
 
 .hero-form {
-    background-color: #fce138;
+    background-color:  rgba(252, 225, 56, 0.8);
     padding: 20px;
     /* width: 500px; */
     width: 40%;
     margin: 3.5%;
     color: #024e76;
     border: solid 3px #024e76;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
     /* position: absolute; */
     /* bottom: 120px; */
     /* right: 140px; */
@@ -122,6 +126,7 @@ margin: 5px 0 15px 0;
     color: #024e76;
     width: 100%;
     margin-bottom: 15px;
+    border-radius: 10px;
 }
 
 .hero-form label {
@@ -134,6 +139,7 @@ margin: 5px 0 15px 0;
     border: none;
     padding: 10px 20px;
     font-size: 16px;
+    border-radius: 10px;
 }
 .hero-cta {
     width: 35%;
@@ -148,6 +154,7 @@ margin: 5px 0 15px 0;
     font-style: italic;
     font-size: 55px;
     color: #fce138;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -369,6 +376,7 @@ justify-content: space-around;
     width: 100%;
     margin-bottom: 15px;
     margin-top: 5px;
+    border-radius: 10px;
   }
 
   .contact-form button {
@@ -379,6 +387,8 @@ justify-content: space-around;
     text-align: center;
     padding: 15px 0;
     font-size: 16px;
+    border-radius: 10px;
+
   }
 
   .contact-info a {
@@ -438,6 +448,7 @@ footer a {
   header h1 {
     width: 100%;
     text-align: center;
+   
   }
 
   header nav ul {
@@ -448,6 +459,7 @@ footer a {
 
   header nav ul li a {
 font-size: 20px;
+
   }
 
   .hero-cta, .hero-form {
