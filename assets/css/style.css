@@ -567,6 +567,7 @@ font-size: 20px;
   
   .section-title {
     width: 95%;
+    color: red;
   }
 
   .intro p {
