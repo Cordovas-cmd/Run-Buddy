@@ -21,6 +21,8 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    /* position: sticky;
+    top: 0; */
 }
 
 /* Setting some styles for more specific elements of header. */
