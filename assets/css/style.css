@@ -1,3 +1,9 @@
+:root {
+    --primary-color: #fce138;
+    --secondary-color: #024e76;
+    --tertiary-color: #39a6b2;
+  }
+
 /* This will remove and default padding and margint hat the browser will apply. */
 *{
 margin: 0;
@@ -9,7 +15,7 @@ box-sizing: border-box;
 body {
 
     /* Sets the font style and color of the page */
-    color: #39a6b2;
+    color: var(--tertiary-color);
     font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -21,6 +27,8 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    /* position: sticky;
+    top: 0; */
 }
 
 /* Setting some styles for more specific elements of header. */
@@ -65,7 +73,7 @@ header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
     /* font-size: 22px; */
-    /* using vw which stands for viewport width makes it more dynamic allowing it to adjust based on current screen size. */
+    /* using  viewport width makes it more dynamic allowing it to adjust based on current screen size. */
     font-size: 1.55vw;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
@@ -107,6 +115,10 @@ section {
     /* bottom: 120px; */
     /* right: 140px; */
 }
+
+.hero-form button:hover {
+    background-color: #39a6b2;  
+  }
 
 .hero-form p {
 margin: 5px 0 15px 0;
